@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stock AI Studio</title>
+<meta name="description" content="Stock AI Studio is a personal tool that prepares the owner's photos in Google Drive for stock photo sites.">
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #F6F5F1; --surface: #FFFFFF; --border: #E4E1D9; --text: #1F2320; --muted: #5F6A63; --accent: #1F6F5C;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #141716; --surface: #1C201E; --border: #303632; --text: #ECEFEB; --muted: #A3ADA6; --accent: #5CC3A8; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 400 16px/1.7 "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; display: grid; gap: 28px; }
+h1 { margin: 0; font-size: 30px; line-height: 1.3; }
+h2 { margin: 0 0 8px; font-size: 19px; }
+p, ul { margin: 0; }
+ul { padding-left: 20px; }
+.lead { color: var(--muted); }
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 20px; }
+a { color: var(--accent); }
+footer { color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>Stock AI Studio</h1>
+<p class="lead">구글 드라이브의 내 사진을 스톡 사이트에 올릴 수 있게 정리하는 개인용 도구입니다.</p>
+</header>
+
+<section class="card">
+<h2>하는 일</h2>
+<ul>
+<li>사용자가 지정한 구글 드라이브 폴더의 사진과 메타데이터 파일을 읽습니다.</li>
+<li>사진 규격, 제목, 키워드를 검사하고 스톡 사이트별 업로드 묶음을 만듭니다.</li>
+<li>만든 묶음과 처리 현황표를 같은 구글 드라이브 폴더에 저장합니다.</li>
+</ul>
+</section>
+
+<section class="card">
+<h2>누가 쓰나요</h2>
+<p>이 도구는 운영자 한 사람이 자신의 구글 계정으로만 사용하는 개인용 프로그램입니다. 다른 사용자에게 서비스를 제공하지 않습니다.</p>
+</section>
+
+<section class="card">
+<h2>English</h2>
+<p>Stock AI Studio is a personal tool used only by its owner. It reads photos and a metadata file from a Google Drive folder chosen by the owner, prepares upload batches for stock photo sites, and saves the results back to the same Drive folder.</p>
+</section>
+
+<footer>
+<p><a href="privacy.html">개인정보처리방침 (Privacy Policy)</a></p>
+</footer>
+</main>
+</body>
+</html>
